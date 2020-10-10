@@ -1,0 +1,9 @@
+def odd(i,n):
+    if(i<=n):
+        if(i%2!=0):
+            print(i,end=" ")
+            
+        odd(i+1,n)
+            
+num=int(input("Enter the number: "))
+odd(1,num)
