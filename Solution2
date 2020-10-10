@@ -1,0 +1,7 @@
+def natural(n):
+    if(n>0):
+        natural(n-1)
+        print (n)
+        
+num=int(input("Enter a number: "))
+natural(num)
