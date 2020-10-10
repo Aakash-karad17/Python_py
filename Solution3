@@ -1,0 +1,7 @@
+def even(i,n):
+    if(i<=n):
+        print(2*i,end=" ")
+        even(i+1,n)
+        
+num=int(input("Enter the number: "))
+even(1,num)
